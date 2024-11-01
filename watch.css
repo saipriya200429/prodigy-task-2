@@ -1,0 +1,95 @@
+html,body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(white,rgb(87, 204, 243));
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+#myH1{
+    font-size: 4rem;
+    font-family: "Arial", sans-serif;
+    color: hsl(0, 0%, 25%);
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 5px solid;
+    border-radius: 50px;
+    background-color:rgb(225, 237, 247)
+}
+#display{
+    font-size: 5rem;
+    color: hsl(0, 0%, 30%);
+    text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.75);
+    margin-bottom: 25px;
+}
+#controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+#startBtn{
+    background-color: hsl(115, 100%, 40%);
+}
+#startBtn:hover{
+    background-color: hsl(115, 100%, 30%);
+}
+#stopBtn{
+    background-color: hsl(10, 90%, 50%);
+}
+#stopBtn:hover{
+    background-color: hsl(10, 90%, 40%);
+}
+#resetBtn{
+    background-color: hsl(205, 90%, 60%);
+}
+#resetBtn:hover{
+    background-color: hsl(205, 90%, 50%);
+}
+
+#lapsContainer {
+    margin-top: 20px;
+    width: 80%;
+    text-align: center;
+}
+
+#lapsList {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.2rem;
+    color: hsl(0, 0%, 20%);
+}
+
+#controls button, #lapBtn {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+#lapBtn {
+    background-color: hsl(45, 90%, 60%);
+}
+
+#lapBtn:hover {
+    background-color: hsl(45, 90%, 50%);
+}
